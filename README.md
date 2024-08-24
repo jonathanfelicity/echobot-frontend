@@ -1,5 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# EchoBot frontend Setup
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Requirements
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Before you begin, ensure you have the following software installed:
+
+- [Node.js](https://nodejs.org/) (v18.0.0 or later)
+- [Git](https://git-scm.com/) (for version control)
+
+## Setup Process
+
+Follow these steps to set up your EchoBot frontend Setup:
+
+### 1. Create a Vite Project
+
+1. Open your terminal or command prompt.
+
+```bash
+
+git clone https://github.com/jonathanfelicity/echobot-frontend.git
+
+cd echobot-frontend
+
+pnpm install
+
+pnpm run dev
+```
+
+
+| update the docker `socket.ts` with your backend url
